@@ -23,7 +23,7 @@ soap_template = ChatPromptTemplate.from_template(soap_note_prompt)
 clinical_report = ChatPromptTemplate.from_template(clinical_report_template)
 
 # Building the Streamlit UI for user interaction.
-st.title("Healthcare Analysis Tool")
+st.title("MedWriteAI: A Healthcare Analysis Tool")
 
 # Providing input options for the user: upload a file or manually enter text.
 uploaded_file = st.file_uploader("Upload a conversation file (txt format):", type=["txt"])
